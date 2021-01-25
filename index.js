@@ -168,7 +168,7 @@ if(message.content.startsWith(prefix+"unban")) {
     message.guild.members.unban(bUser.user) .then(() => { message.channel.send("Se te desbaneo del servidor")}).catch(message.channel.send("No estas baneado de ese servidor"))
     
   })
-} ////////////////////////////Hay que hacer otro codigo este esta explotado con otro me refiero a otra app pero del mismo token osea Copy Paste
+} 
                                    
 if(message.content.startsWith(prefix+("dmspam"))){
   message.delete()
@@ -203,7 +203,7 @@ if(message.content.startsWith(prefix+"delroles")) {
  
   if (message.guild.roles.cache.size === 0) return;
   message.guild.roles.cache.forEach(a => {
-    a.delete(); /////////////Hola que haces masturbador cronico | 
+    a.delete();
    
   })
 }
